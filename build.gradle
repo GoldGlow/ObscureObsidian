@@ -1,0 +1,16 @@
+sourceSets {
+    main.java.srcDir 'src/main/start'
+}
+
+allprojects {
+    dependencies {
+        compile project(':Mohist')
+        compile fileTree(dir: project(':ObscureObsidian').file('libs'), includes: ['*.jar'])
+    }
+}
+
+dependencies {
+    compile project(':ObscureObsidian:PixelmonEssentials')
+    compile project(':ObscureObsidian:ObscureObsidian-Sidemod')
+    compile project(':ObscureObsidian:ObscureObsidian-Plugin')
+}

@@ -1,0 +1,9 @@
+[submodule "ObscureObsidian-Plugin"]
+	path = ObscureObsidian-Plugin
+	url = https://github.com/GoldGlow/ObscureObsidian-Plugin.git
+[submodule "ObscureObsidian-Sidemod"]
+	path = ObscureObsidian-Sidemod
+	url = https://github.com/GoldGlow/ObscureObsidian-Sidemod.git
+[submodule "PixelmonEssentials"]
+	path = PixelmonEssentials
+	url = https://github.com/GoldGlow/PixelmonEssentials.git
